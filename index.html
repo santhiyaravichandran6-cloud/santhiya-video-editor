@@ -20,7 +20,23 @@ section{padding:82px 0;border-top:1px solid var(--line)}.section-head{display:fl
 h2{font-size:36px;margin:0;letter-spacing:-.03em}.section-head p{color:var(--muted);max-width:500px;margin:0}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:18px;overflow:hidden}
-.poster{aspect-ratio:16/9;background:#202026;position:relative}.poster img{width:100%;height:100%;object-fit:cover;display:block}.play{position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(transparent,rgba(0,0,0,.45));font-size:48px}
+.poster{aspect-ratio:16/9;background:#202026;position:relative}.poster img{width:100%;height:100%;object-fit:cover;display:block}.play{
+position:absolute;
+inset:0;
+display:grid;
+place-items:center;
+background:linear-gradient(transparent,rgba(0,0,0,.55));
+font-size:14px;
+font-weight:700;
+letter-spacing:.12em;
+text-transform:uppercase;
+}.card:hover .poster img{
+transform:scale(1.04);
+}
+
+.poster img{
+transition:transform .4s ease;
+}
 .card-body{padding:22px}.tag{font-size:11px;color:var(--gold);text-transform:uppercase;letter-spacing:.15em;font-weight:700}.card h3{margin:8px 0 7px;font-size:21px}.card p{color:var(--muted);font-size:14px;margin:0 0 16px}.watch{font-size:13px;font-weight:700;color:var(--gold)}
 video{width:100%;display:block;background:#000}
 .about{display:grid;grid-template-columns:1fr 1fr;gap:60px}.about p{color:var(--muted);font-size:16px}.skills{display:flex;flex-wrap:wrap;gap:10px}.skill{border:1px solid var(--line);border-radius:30px;padding:9px 13px;color:#d6d2cb;font-size:13px}
@@ -46,9 +62,9 @@ video{width:100%;display:block;background:#000}
 <section id="work">
 <div class="section-head"><h2>Selected Work</h2><p>Three client projects demonstrating commercial editing, AI-assisted production, visual consistency and storytelling.</p></div>
 <div class="grid">
-<div class="card"><div class="poster"><a href="#jewellery"><img src="assets/Sri Kandas Jewellery advertisement.jpg" alt="Sri Kandas Jewellery project poster"><div class="play">▶</div></a></div><div class="card-body"><div class="tag">Jewellery · Commercial</div><h3>Sri Kandas Jewellery</h3><p>Luxury jewellery advertisement with cinematic product presentation and premium brand visuals.</p><p><strong>My Role:</strong> AI video production · Editing · Sound design · Brand presentation</p><a class="watch" href="#jewellery">Watch project →</a></div></div>
-<div class="card"><div class="poster"><a href="#thiraa"><img src="assets/Thiraa (1).jpg" alt="THIRAA fashion project poster"><div class="play">▶</div></a></div><div class="card-body"><div class="tag">Fashion · Commercial</div><h3>THIRAA</h3><p>Stylized fashion advertisement built around AI characters, wardrobe storytelling and cinematic scenes.</p><p><strong>My Role:</strong> Creative direction · AI generation · Character consistency · Editing</p><a class="watch" href="#thiraa">Watch project →</a></div></div>
-<div class="card"><div class="poster"><a href="#animation"><img src="assets/MonkeyTotoElephant.jpg" alt="Animated storytelling project poster"><div class="play">▶</div></a></div><div class="card-body"><div class="tag">Animation · Storytelling</div><h3>Monkey, Toto & Elephant</h3><p>AI-assisted animated story combining character continuity, pacing, sound and narrative editing.</p><p><strong>My Role:</strong> AI character creation · Storytelling · Editing · Sound design</p><a class="watch" href="#animation">Watch project →</a></div></div>
+<div class="card"><div class="poster"><a href="#jewellery"><img src="assets/Sri Kandas Jewellery advertisement.jpg" alt="Sri Kandas Jewellery project poster"><div class="play">View Project</div></a></div><div class="card-body"><div class="tag">Jewellery · Commercial</div><h3>Sri Kandas Jewellery</h3><p>Luxury jewellery advertisement with cinematic product presentation and premium brand visuals.</p><p><strong>My Role:</strong> AI video production · Editing · Sound design · Brand presentation</p><a class="watch" href="#jewellery">Watch project →</a></div></div>
+<div class="card"><div class="poster"><a href="#thiraa"><img src="assets/Thiraa (1).jpg" alt="THIRAA fashion project poster"><div class="play">View Project</div></a></div><div class="card-body"><div class="tag">Fashion · Commercial</div><h3>THIRAA</h3><p>Stylized fashion advertisement built around AI characters, wardrobe storytelling and cinematic scenes.</p><p><strong>My Role:</strong> Creative direction · AI generation · Character consistency · Editing</p><a class="watch" href="#thiraa">Watch project →</a></div></div>
+<div class="card"><div class="poster"><a href="#animation"><img src="assets/MonkeyTotoElephant.jpg" alt="Animated storytelling project poster"><div class="play">View Project</div></a></div><div class="card-body"><div class="tag">Animation · Storytelling</div><h3>Monkey, Toto & Elephant</h3><p>AI-assisted animated story combining character continuity, pacing, sound and narrative editing.</p><p><strong>My Role:</strong> AI character creation · Storytelling · Editing · Sound design</p><a class="watch" href="#animation">Watch project →</a></div></div>
 </div>
 </section>
 
